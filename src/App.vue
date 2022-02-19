@@ -1,15 +1,21 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h1>GRAPHLE</h1>
+    <GrGraph />
+    <GrGuess ref="guess" />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import GrGraph from './components/GrGraph.vue'
+import GrGuess from './components/GrGuess.vue'
 
 export default {
   name: 'App',
+  computed: function() {
+  },
+  created: function() {
+  },
   components: {
-    HelloWorld
+    GrGuess, GrGraph
   }
 }
 </script>

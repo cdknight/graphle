@@ -1,5 +1,8 @@
 # graphle
 
+Like Wordle, but for graphs
+
+
 ## Project setup
 ```
 yarn install
@@ -19,6 +22,3 @@ yarn build
 ```
 yarn lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
